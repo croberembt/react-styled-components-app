@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components'; 
-import BackgroundImage from '../assets/images/background.png'; 
+import BackgroundImage from '../assets/images/background.jpg'; 
 
 export default createGlobalStyle`
   * {
@@ -20,5 +20,6 @@ export default createGlobalStyle`
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; 
+    height: 100vh;
   }
 `;

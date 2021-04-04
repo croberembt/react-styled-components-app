@@ -1,118 +1,16 @@
 import React from 'react';
 import GlobalStyle from './styles/global';
+import Navbar from './components/Navbar/Navbar'; 
+import Footer from './components/Footer/Footer';
+import Home from './components/Home/Home';
 
 const App: React.FC = () => {
    return (
      <>
       <GlobalStyle />
-      <h1>
-        HELLO
-      </h1>
-      <h1>
-        HELLO
-      </h1>
-      <h1>
-        HELLO
-      </h1>
-      <h1>
-        HELLO
-      </h1>
-      <h1>
-        HELLO
-      </h1>
-      <h1>
-        HELLO
-      </h1>
-      <h1>
-        HELLO
-      </h1>
-      <h1>
-        HELLO
-      </h1>
-      <h1>
-        HELLO
-      </h1>
-      <h1>
-        HELLO
-      </h1>
-      <h1>
-        HELLO
-      </h1>
-      <h1>
-        HELLO
-      </h1>
-      <h1>
-        HELLO
-      </h1>
-      <h1>
-        HELLO
-      </h1>
-      <h1>
-        HELLO
-      </h1>
-      <h1>
-        HELLO
-      </h1>
-      <h1>
-        HELLO
-      </h1>
-      <h1>
-        HELLO
-      </h1>
-      <h1>
-        HELLO
-      </h1>
-      <h1>
-        HELLO
-      </h1>
-      <h1>
-        HELLO
-      </h1>
-      <h1>
-        HELLO
-      </h1>
-      <h1>
-        HELLO
-      </h1>
-      <h1>
-        HELLO
-      </h1>
-      <h1>
-        HELLO
-      </h1>
-      <h1>
-        HELLO
-      </h1>
-      <h1>
-        HELLO
-      </h1>
-      <h1>
-        HELLO
-      </h1>
-      <h1>
-        HELLO
-      </h1>
-      <h1>
-        HELLO
-      </h1>
-      <h1>
-        HELLO
-      </h1>
-      <h1>
-        HELLO
-      </h1>
-      <h1>
-        HELLO
-      </h1>
-      <h1>
-        HELLO
-      </h1>
-      <h1>
-        HELLO
-      </h1>
-      <h1>
-        HELLO
-      </h1>
+      <Navbar />
+      <Home />
+      <Footer />
      </>
    );
 }

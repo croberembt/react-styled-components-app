@@ -1,14 +1,16 @@
 import React from 'react';
-import { Container } from './NavbarStyles';
-import { Logo } from './NavbarStyles';
-import { Menu } from './NavbarStyles';
+import { Container, Logo, Menu, MenuItem } from './NavbarStyles';
 
 const Navbar: React.FC = () => {
   return (
     <>
       <Container>
-          <Logo></Logo>
-          <Menu></Menu>
+        <Logo>LOGO</Logo>
+        <Menu>
+          <MenuItem>HOME</MenuItem>
+          <MenuItem>ABOUT</MenuItem>
+          <MenuItem>CONTACT</MenuItem>
+        </Menu>
       </Container> 
     </>
   )

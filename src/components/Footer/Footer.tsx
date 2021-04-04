@@ -4,7 +4,9 @@ import { Container } from './FooterStyles';
 const Footer: React.FC = () => {
   return (
     <>
-      <Container></Container>
+      <Container>
+        FOOTER
+      </Container>
     </>
   )
 }
